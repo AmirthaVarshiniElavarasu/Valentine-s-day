@@ -234,3 +234,31 @@ button:active {
 #loveMessage{
   color: #912727;
 }
+/* 📱 Mobile View */
+@media (max-width: 768px) {
+
+  .center-box {
+    padding: 40px 20px;   /* reduce horizontal padding */
+    width: 90%;
+    text-align: center;
+  }
+
+  .center-box h2 {
+    font-size: 20px;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .heart {
+    transform: scale(0.7);   /* shrink animated heart */
+  }
+
+  .pixel {
+    width: 12px;
+    height: 12px;
+  }
+}
